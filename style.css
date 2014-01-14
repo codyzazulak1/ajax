@@ -6,13 +6,26 @@ div.title {
 	line-height: 90px;  
 }
 
-div.photobox {
-	height: 400px;
-	width: 400px;
+div#photobox {
+	height: 640px;
+	width: 640px;
 	border-width: 100px;
-	position: inherit;
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: red;
+	overflow: hidden;
+
+}
+
+div#photobox div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+button.button {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 
 }
