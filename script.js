@@ -22,5 +22,9 @@ $(document).ready(function() {
             console.log(searchTerm);
         }, 3000); 
     });  
+
+    $('.restart').click(function() {
+        location.reload(); 
+    });  
              
 });

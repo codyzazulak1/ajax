@@ -3,17 +3,18 @@
 	text-decoration: underline;
 	text-align: center;
 	vertical-align: middle;
-	line-height: 90px;  
+	line-height: 45px;  
 }
 
 #photobox {
-	height: 600px;
-	width: 600px;
+	height: 595px;
+	width: 595px;
 	border-width: 100px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
+	border-radius: 10%;
 }
 
 #photobox img {
